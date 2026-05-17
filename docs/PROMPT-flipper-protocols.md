@@ -1,0 +1,3 @@
+/home/dev/src/flipperzero-firmware/lib/subghz/ contains implementation of Flipper's Sub-Ghz feature. Using that feature we can generate an RF signal, for example, from a remote control, and inspect its properties. We can discover various aspects of the signal, like encoding, bit length, preamble (if any) etc. We can also save this, and replay the same signal.
+
+I would like to port this functionality to Python 3. To do so, first read the code in aforementioned folder, and understand how is the functionality implemented. Write a technical document containing enough details such that we can use it to implement the said migration using another agent.
