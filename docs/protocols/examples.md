@@ -191,7 +191,7 @@ rx.set_rx_callback(on_decoded)
 print("Receiving...")
 while True:
     try:
-        data, timestamp = d.RFrecv(timeoutms=1000)
+        data, timestamp = d.RFrecv(timeout=1000)
         # Convert data to level/duration pairs
         # This is protocol/hardware specific
         for byte in data:
